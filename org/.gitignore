@@ -3,6 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.pyd
 
 # Distribution / packaging
 dist/
@@ -15,27 +16,26 @@ venv/
 env/
 .venv/
 .env
-
-IEEE_Project_Report.*
-Low_Light_Image_Enhancement_Presentation.pptx
-create_enhancement_ppt.py
-create_ppt.py
-gpt.md
-ipaEnhance.md
-original_paper.md
-session-ses_27e5.md
-generate_ieee_report_assests.py
-Enhancement_Presentation.pptx
-
-*.zip
-
+iDontNeedEm/
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*~
+
+# Python scripts to exclude from repo
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
 
 # Image processing outputs
+Output/
+demo_output/
+results/
+logs/
 *.log
 
 # OS files
